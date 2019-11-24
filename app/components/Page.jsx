@@ -8,4 +8,5 @@ const Page = styled.div`
   align-items: center;
   text-align: center;
 `;
+
 export default Page;

@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+
 export const GlobalStyles = createGlobalStyle`
 /* Base 10 typography scale courtesty of @wesbos 1.6rem === 16px */
 html {
@@ -57,7 +58,7 @@ img {
 a {
   text-decoration: underline;
   color: inherit;
-&.active {
+  &.active {
     text-decoration: none;
   }
 }

@@ -8,11 +8,9 @@ const Header = styled.header`
   top: 0;
   left: 0;
   right: 0;
-
   max-width: 90vw;
   margin: 0 auto;
   padding: 1em 0;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -28,6 +26,7 @@ const Menu = styled.ul`
   align-items: center;
   width: 50vw;
 `;
+
 const MenuLink = styled.li`
   margin-left: 2em;
   text-decoration: none;
@@ -35,12 +34,14 @@ const MenuLink = styled.li`
 
 export default () => (
   <Header>
-    <Brand>Something Something!</Brand>
+    <Brand>Stream things!</Brand>
     <Menu>
       <MenuLink>
         <NavLink to="/" exact activeClassName="active">
           Home
         </NavLink>
+      </MenuLink>
+      <MenuLink>
         <NavLink to="/about" exact activeClassName="active">
           About
         </NavLink>
